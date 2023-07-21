@@ -105,6 +105,15 @@ def percorrer_pastas(diretorio_raiz, tipo_arquivos_pastas=None):
                             pasta_recente = obter_pasta_recente(pastas_ano, caminho_tipo_arquivo, ano_atual)
 
                             caminhos_meses = obter_caminhos_meses(pasta_recente) if pasta_recente else []
+
+                            # Verificar o mês mais recente
+                            mes_mais_recente = None
+                            for caminho_mes in caminhos_meses:
+                                mes_str = caminho_mes.split("/")[-1]
+                                mes = int(mes_str)
+                                if not mes_mais_recente or mes > mes_mais_recente:
+                                    mes_mais_recente = mes
+
                             for arquivo in caminhos_meses:
                                 lista_arquivos = manipular_arquivos.listar_arquivos(arquivo)
                                 nomes_arquivos_gerados.extend(lista_arquivos)
@@ -115,8 +124,8 @@ def percorrer_pastas(diretorio_raiz, tipo_arquivos_pastas=None):
                                 "Orgao": caminho_orgao,
                                 "Tipo de arquivo": caminho_tipo_arquivo,
                                 "Pasta do ano mais recente": pasta_recente if pasta_recente else "Nenhuma pasta encontrada para o ano atual",
-                                "Caminho dos meses": caminhos_meses
-
+                                "Caminho dos meses": caminhos_meses,
+                                "Mês mais recente": mes_mais_recente if mes_mais_recente else "Nenhum mês encontrado"
                             })
 
 
@@ -162,7 +171,7 @@ def run():
     nome_arquivo = "dadosPastas.csv"
 
     # Lista com as colunas desejadas
-    colunas_desejadas = ["Estado", "Caminho dos meses"]
+    colunas_desejadas = ["Estado", "Caminho dos meses", "Tipo de arquivo", "Mês mais recente"]
 
     gerar_csv(dados_atualizados, nome_arquivo, colunas=colunas_desejadas)
 

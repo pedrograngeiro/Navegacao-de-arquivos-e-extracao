@@ -139,6 +139,16 @@ def imprimir_dados(dados):
             print("  -", caminho_mes)
 
 def run():
+    """
+    Executa o processo principal do programa.
+
+    Esta função é responsável por executar o processo principal do programa, que inclui a coleta de informações sobre
+    os estados, órgãos e tipos de arquivo em um diretório específico. Ela chama a função 'percorrer_pasta' para realizar
+    a coleta e, em seguida, gera um arquivo CSV com os dados coletados usando a função 'gerar_csv'.
+
+    :param None
+    :return: Nenhum valor é retornado explicitamente.
+    """
     tipo_arquivos_pastas = ["txt", "pdf"]
 
     # pasta alvo

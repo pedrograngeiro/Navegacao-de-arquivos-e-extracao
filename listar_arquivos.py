@@ -2,7 +2,8 @@ import os
 from datetime import date
 
 # Bibliotecas Uteis
-from util import gerar_csv
+from util.gerar_csv import gerar_csv
+
 from util import manipular_arquivos
 
 def obter_ano_pasta(pasta):
@@ -114,6 +115,8 @@ def percorrer_pastas(diretorio_raiz, tipo_arquivos_pastas=None):
                                 "Orgao": caminho_orgao,
                                 "Tipo de arquivo": caminho_tipo_arquivo,
                                 "Pasta do ano mais recente": pasta_recente if pasta_recente else "Nenhuma pasta encontrada para o ano atual",
+                                "Caminho dos meses": caminhos_meses
+
                             })
 
 
@@ -157,7 +160,11 @@ def run():
     dados_atualizados = [dado for dado in dados if dado["Pasta do ano mais recente"].endswith("/2023")]
 
     nome_arquivo = "dadosPastas.csv"
-    gerar_csv.gerar_csv(dados_atualizados, nome_arquivo)
+
+    # Lista com as colunas desejadas
+    colunas_desejadas = ["Estado", "Caminho dos meses"]
+
+    gerar_csv(dados_atualizados, nome_arquivo, colunas=colunas_desejadas)
 
 
 if __name__ == "__main__":

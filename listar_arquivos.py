@@ -153,19 +153,11 @@ def run():
 
     # pasta alvo
     caminho = '/mnt/dmlocal/dados/'
-
     dados = percorrer_pastas(caminho, tipo_arquivos_pastas)
+    dados_atualizados = [dado for dado in dados if dado["Pasta do ano mais recente"].endswith("/2023")]
 
-
-    #testando modificacao
-    # dados_atualizados = [dado for dado in dados if dado["Pasta do ano mais recente"].endswith("/2023")]
-
-    # Organize os dados por colunas
-
-    nome_arquivo = "dados.csv"
-
-    # obter_caminhos_meses(caminho)
-    gerar_csv.gerar_csv(dados, nome_arquivo)
+    nome_arquivo = "dadosPastas.csv"
+    gerar_csv.gerar_csv(dados_atualizados, nome_arquivo)
 
 
 if __name__ == "__main__":

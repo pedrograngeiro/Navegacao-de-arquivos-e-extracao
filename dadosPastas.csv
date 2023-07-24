@@ -1,28 +1,54 @@
-Caminho dos meses,Estado,Mês mais recente,Tipo de arquivo
-"['/mnt/dmlocal/dados/PE/DJPE/pdf/2023/05', '/mnt/dmlocal/dados/PE/DJPE/pdf/2023/04', '/mnt/dmlocal/dados/PE/DJPE/pdf/2023/03', '/mnt/dmlocal/dados/PE/DJPE/pdf/2023/01', '/mnt/dmlocal/dados/PE/DJPE/pdf/2023/02']",/mnt/dmlocal/dados/PE,5,/mnt/dmlocal/dados/PE/DJPE/pdf
-"['/mnt/dmlocal/dados/PE/DJPE/txt/2023/05', '/mnt/dmlocal/dados/PE/DJPE/txt/2023/04', '/mnt/dmlocal/dados/PE/DJPE/txt/2023/03', '/mnt/dmlocal/dados/PE/DJPE/txt/2023/01', '/mnt/dmlocal/dados/PE/DJPE/txt/2023/02']",/mnt/dmlocal/dados/PE,5,/mnt/dmlocal/dados/PE/DJPE/txt
-"['/mnt/dmlocal/dados/RS/DJRS/pdf/2023/06', '/mnt/dmlocal/dados/RS/DJRS/pdf/2023/05', '/mnt/dmlocal/dados/RS/DJRS/pdf/2023/04', '/mnt/dmlocal/dados/RS/DJRS/pdf/2023/03', '/mnt/dmlocal/dados/RS/DJRS/pdf/2023/01', '/mnt/dmlocal/dados/RS/DJRS/pdf/2023/02']",/mnt/dmlocal/dados/RS,6,/mnt/dmlocal/dados/RS/DJRS/pdf
-"['/mnt/dmlocal/dados/RJ/DJRJ/pdf/2023/06', '/mnt/dmlocal/dados/RJ/DJRJ/pdf/2023/05', '/mnt/dmlocal/dados/RJ/DJRJ/pdf/2023/04', '/mnt/dmlocal/dados/RJ/DJRJ/pdf/2023/07', '/mnt/dmlocal/dados/RJ/DJRJ/pdf/2023/03', '/mnt/dmlocal/dados/RJ/DJRJ/pdf/2023/01', '/mnt/dmlocal/dados/RJ/DJRJ/pdf/2023/02']",/mnt/dmlocal/dados/RJ,7,/mnt/dmlocal/dados/RJ/DJRJ/pdf
-"['/mnt/dmlocal/dados/RJ/DJRJ/txt/2023/06', '/mnt/dmlocal/dados/RJ/DJRJ/txt/2023/05', '/mnt/dmlocal/dados/RJ/DJRJ/txt/2023/04', '/mnt/dmlocal/dados/RJ/DJRJ/txt/2023/07', '/mnt/dmlocal/dados/RJ/DJRJ/txt/2023/03', '/mnt/dmlocal/dados/RJ/DJRJ/txt/2023/01', '/mnt/dmlocal/dados/RJ/DJRJ/txt/2023/02']",/mnt/dmlocal/dados/RJ,7,/mnt/dmlocal/dados/RJ/DJRJ/txt
-"['/mnt/dmlocal/dados/TO/DJTO/pdf/2023/06', '/mnt/dmlocal/dados/TO/DJTO/pdf/2023/05', '/mnt/dmlocal/dados/TO/DJTO/pdf/2023/04', '/mnt/dmlocal/dados/TO/DJTO/pdf/2023/03', '/mnt/dmlocal/dados/TO/DJTO/pdf/2023/01', '/mnt/dmlocal/dados/TO/DJTO/pdf/2023/02']",/mnt/dmlocal/dados/TO,6,/mnt/dmlocal/dados/TO/DJTO/pdf
-"['/mnt/dmlocal/dados/AC/DJAC/pdf/2023/01', '/mnt/dmlocal/dados/AC/DJAC/pdf/2023/02']",/mnt/dmlocal/dados/AC,2,/mnt/dmlocal/dados/AC/DJAC/pdf
-"['/mnt/dmlocal/dados/AC/DJAC/txt/2023/01', '/mnt/dmlocal/dados/AC/DJAC/txt/2023/02']",/mnt/dmlocal/dados/AC,2,/mnt/dmlocal/dados/AC/DJAC/txt
-"['/mnt/dmlocal/dados/DF/DJDF/pdf/2023/06', '/mnt/dmlocal/dados/DF/DJDF/pdf/2023/05', '/mnt/dmlocal/dados/DF/DJDF/pdf/2023/04', '/mnt/dmlocal/dados/DF/DJDF/pdf/2023/07', '/mnt/dmlocal/dados/DF/DJDF/pdf/2023/03', '/mnt/dmlocal/dados/DF/DJDF/pdf/2023/01', '/mnt/dmlocal/dados/DF/DJDF/pdf/2023/02']",/mnt/dmlocal/dados/DF,7,/mnt/dmlocal/dados/DF/DJDF/pdf
-"['/mnt/dmlocal/dados/CE/DJCE/pdf/2023/06', '/mnt/dmlocal/dados/CE/DJCE/pdf/2023/05', '/mnt/dmlocal/dados/CE/DJCE/pdf/2023/04', '/mnt/dmlocal/dados/CE/DJCE/pdf/2023/07', '/mnt/dmlocal/dados/CE/DJCE/pdf/2023/03', '/mnt/dmlocal/dados/CE/DJCE/pdf/2023/01', '/mnt/dmlocal/dados/CE/DJCE/pdf/2023/02']",/mnt/dmlocal/dados/CE,7,/mnt/dmlocal/dados/CE/DJCE/pdf
-"['/mnt/dmlocal/dados/CE/DJCE/txt/2023/06', '/mnt/dmlocal/dados/CE/DJCE/txt/2023/05', '/mnt/dmlocal/dados/CE/DJCE/txt/2023/04', '/mnt/dmlocal/dados/CE/DJCE/txt/2023/07', '/mnt/dmlocal/dados/CE/DJCE/txt/2023/03', '/mnt/dmlocal/dados/CE/DJCE/txt/2023/01', '/mnt/dmlocal/dados/CE/DJCE/txt/2023/02']",/mnt/dmlocal/dados/CE,7,/mnt/dmlocal/dados/CE/DJCE/txt
-"['/mnt/dmlocal/dados/AL/DJAL/pdf/2023/06', '/mnt/dmlocal/dados/AL/DJAL/pdf/2023/05', '/mnt/dmlocal/dados/AL/DJAL/pdf/2023/04', '/mnt/dmlocal/dados/AL/DJAL/pdf/2023/07', '/mnt/dmlocal/dados/AL/DJAL/pdf/2023/03', '/mnt/dmlocal/dados/AL/DJAL/pdf/2023/01', '/mnt/dmlocal/dados/AL/DJAL/pdf/2023/02']",/mnt/dmlocal/dados/AL,7,/mnt/dmlocal/dados/AL/DJAL/pdf
-"['/mnt/dmlocal/dados/AL/DJAL/txt/2023/06', '/mnt/dmlocal/dados/AL/DJAL/txt/2023/05', '/mnt/dmlocal/dados/AL/DJAL/txt/2023/04', '/mnt/dmlocal/dados/AL/DJAL/txt/2023/07', '/mnt/dmlocal/dados/AL/DJAL/txt/2023/03', '/mnt/dmlocal/dados/AL/DJAL/txt/2023/01', '/mnt/dmlocal/dados/AL/DJAL/txt/2023/02']",/mnt/dmlocal/dados/AL,7,/mnt/dmlocal/dados/AL/DJAL/txt
-"['/mnt/dmlocal/dados/PB/DJPB/pdf/2023/06', '/mnt/dmlocal/dados/PB/DJPB/pdf/2023/05', '/mnt/dmlocal/dados/PB/DJPB/pdf/2023/04', '/mnt/dmlocal/dados/PB/DJPB/pdf/2023/07', '/mnt/dmlocal/dados/PB/DJPB/pdf/2023/03', '/mnt/dmlocal/dados/PB/DJPB/pdf/2023/01', '/mnt/dmlocal/dados/PB/DJPB/pdf/2023/02']",/mnt/dmlocal/dados/PB,7,/mnt/dmlocal/dados/PB/DJPB/pdf
-"['/mnt/dmlocal/dados/PB/DJPB/txt/2023/06', '/mnt/dmlocal/dados/PB/DJPB/txt/2023/05', '/mnt/dmlocal/dados/PB/DJPB/txt/2023/04', '/mnt/dmlocal/dados/PB/DJPB/txt/2023/07', '/mnt/dmlocal/dados/PB/DJPB/txt/2023/03', '/mnt/dmlocal/dados/PB/DJPB/txt/2023/01', '/mnt/dmlocal/dados/PB/DJPB/txt/2023/02']",/mnt/dmlocal/dados/PB,7,/mnt/dmlocal/dados/PB/DJPB/txt
-"['/mnt/dmlocal/dados/MS/DJMS/pdf/2023/06', '/mnt/dmlocal/dados/MS/DJMS/pdf/2023/05', '/mnt/dmlocal/dados/MS/DJMS/pdf/2023/04', '/mnt/dmlocal/dados/MS/DJMS/pdf/2023/07', '/mnt/dmlocal/dados/MS/DJMS/pdf/2023/03', '/mnt/dmlocal/dados/MS/DJMS/pdf/2023/01', '/mnt/dmlocal/dados/MS/DJMS/pdf/2023/02']",/mnt/dmlocal/dados/MS,7,/mnt/dmlocal/dados/MS/DJMS/pdf
-"['/mnt/dmlocal/dados/MS/DJMS/txt/2023/06', '/mnt/dmlocal/dados/MS/DJMS/txt/2023/05', '/mnt/dmlocal/dados/MS/DJMS/txt/2023/04', '/mnt/dmlocal/dados/MS/DJMS/txt/2023/07', '/mnt/dmlocal/dados/MS/DJMS/txt/2023/03', '/mnt/dmlocal/dados/MS/DJMS/txt/2023/01', '/mnt/dmlocal/dados/MS/DJMS/txt/2023/02']",/mnt/dmlocal/dados/MS,7,/mnt/dmlocal/dados/MS/DJMS/txt
-"['/mnt/dmlocal/dados/PI/DJPI/pdf/2023/06', '/mnt/dmlocal/dados/PI/DJPI/pdf/2023/05', '/mnt/dmlocal/dados/PI/DJPI/pdf/2023/04', '/mnt/dmlocal/dados/PI/DJPI/pdf/2023/07', '/mnt/dmlocal/dados/PI/DJPI/pdf/2023/03', '/mnt/dmlocal/dados/PI/DJPI/pdf/2023/01', '/mnt/dmlocal/dados/PI/DJPI/pdf/2023/02']",/mnt/dmlocal/dados/PI,7,/mnt/dmlocal/dados/PI/DJPI/pdf
-"['/mnt/dmlocal/dados/PI/DJPI/txt/2023/06', '/mnt/dmlocal/dados/PI/DJPI/txt/2023/05', '/mnt/dmlocal/dados/PI/DJPI/txt/2023/04', '/mnt/dmlocal/dados/PI/DJPI/txt/2023/07', '/mnt/dmlocal/dados/PI/DJPI/txt/2023/03', '/mnt/dmlocal/dados/PI/DJPI/txt/2023/01', '/mnt/dmlocal/dados/PI/DJPI/txt/2023/02']",/mnt/dmlocal/dados/PI,7,/mnt/dmlocal/dados/PI/DJPI/txt
-"['/mnt/dmlocal/dados/SP/JUCESP/pdf/2023/06', '/mnt/dmlocal/dados/SP/JUCESP/pdf/2023/05', '/mnt/dmlocal/dados/SP/JUCESP/pdf/2023/04', '/mnt/dmlocal/dados/SP/JUCESP/pdf/2023/07', '/mnt/dmlocal/dados/SP/JUCESP/pdf/2023/03', '/mnt/dmlocal/dados/SP/JUCESP/pdf/2023/01', '/mnt/dmlocal/dados/SP/JUCESP/pdf/2023/02']",/mnt/dmlocal/dados/SP,7,/mnt/dmlocal/dados/SP/JUCESP/pdf
-"['/mnt/dmlocal/dados/SP/JUCESP/txt/2023/06', '/mnt/dmlocal/dados/SP/JUCESP/txt/2023/05', '/mnt/dmlocal/dados/SP/JUCESP/txt/2023/04', '/mnt/dmlocal/dados/SP/JUCESP/txt/2023/07', '/mnt/dmlocal/dados/SP/JUCESP/txt/2023/03', '/mnt/dmlocal/dados/SP/JUCESP/txt/2023/01', '/mnt/dmlocal/dados/SP/JUCESP/txt/2023/02']",/mnt/dmlocal/dados/SP,7,/mnt/dmlocal/dados/SP/JUCESP/txt
-"['/mnt/dmlocal/dados/SP/DJSP/pdf/2023/06', '/mnt/dmlocal/dados/SP/DJSP/pdf/2023/05', '/mnt/dmlocal/dados/SP/DJSP/pdf/2023/04', '/mnt/dmlocal/dados/SP/DJSP/pdf/2023/07', '/mnt/dmlocal/dados/SP/DJSP/pdf/2023/03', '/mnt/dmlocal/dados/SP/DJSP/pdf/2023/01', '/mnt/dmlocal/dados/SP/DJSP/pdf/2023/02']",/mnt/dmlocal/dados/SP,7,/mnt/dmlocal/dados/SP/DJSP/pdf
-"['/mnt/dmlocal/dados/SP/DJSP/txt/2023/06', '/mnt/dmlocal/dados/SP/DJSP/txt/2023/05', '/mnt/dmlocal/dados/SP/DJSP/txt/2023/04', '/mnt/dmlocal/dados/SP/DJSP/txt/2023/07', '/mnt/dmlocal/dados/SP/DJSP/txt/2023/03', '/mnt/dmlocal/dados/SP/DJSP/txt/2023/01', '/mnt/dmlocal/dados/SP/DJSP/txt/2023/02']",/mnt/dmlocal/dados/SP,7,/mnt/dmlocal/dados/SP/DJSP/txt
-"['/mnt/dmlocal/dados/ES/DJES/txt/2023/06', '/mnt/dmlocal/dados/ES/DJES/txt/2023/05', '/mnt/dmlocal/dados/ES/DJES/txt/2023/04', '/mnt/dmlocal/dados/ES/DJES/txt/2023/07', '/mnt/dmlocal/dados/ES/DJES/txt/2023/03', '/mnt/dmlocal/dados/ES/DJES/txt/2023/01', '/mnt/dmlocal/dados/ES/DJES/txt/2023/02']",/mnt/dmlocal/dados/ES,7,/mnt/dmlocal/dados/ES/DJES/txt
-"['/mnt/dmlocal/dados/RN/DJRN/pdf/2023/06', '/mnt/dmlocal/dados/RN/DJRN/pdf/2023/05', '/mnt/dmlocal/dados/RN/DJRN/pdf/2023/04', '/mnt/dmlocal/dados/RN/DJRN/pdf/2023/07', '/mnt/dmlocal/dados/RN/DJRN/pdf/2023/03', '/mnt/dmlocal/dados/RN/DJRN/pdf/2023/01', '/mnt/dmlocal/dados/RN/DJRN/pdf/2023/02']",/mnt/dmlocal/dados/RN,7,/mnt/dmlocal/dados/RN/DJRN/pdf
-"['/mnt/dmlocal/dados/PR/DJPR/pdf/2023/06', '/mnt/dmlocal/dados/PR/DJPR/pdf/2023/05', '/mnt/dmlocal/dados/PR/DJPR/pdf/2023/04', '/mnt/dmlocal/dados/PR/DJPR/pdf/2023/07', '/mnt/dmlocal/dados/PR/DJPR/pdf/2023/03', '/mnt/dmlocal/dados/PR/DJPR/pdf/2023/01', '/mnt/dmlocal/dados/PR/DJPR/pdf/2023/02']",/mnt/dmlocal/dados/PR,7,/mnt/dmlocal/dados/PR/DJPR/pdf
-"['/mnt/dmlocal/dados/PR/DJPR/txt/2023/06', '/mnt/dmlocal/dados/PR/DJPR/txt/2023/05', '/mnt/dmlocal/dados/PR/DJPR/txt/2023/04', '/mnt/dmlocal/dados/PR/DJPR/txt/2023/07', '/mnt/dmlocal/dados/PR/DJPR/txt/2023/03', '/mnt/dmlocal/dados/PR/DJPR/txt/2023/01', '/mnt/dmlocal/dados/PR/DJPR/txt/2023/02']",/mnt/dmlocal/dados/PR,7,/mnt/dmlocal/dados/PR/DJPR/txt
+Ano,Estado,Mês,Orgao,Tipo de arquivo
+2023,/mnt/dmlocal/dados/PE,5,/mnt/dmlocal/dados/PE/DJPE,/mnt/dmlocal/dados/PE/DJPE/pdf
+2023,/mnt/dmlocal/dados/PE,5,/mnt/dmlocal/dados/PE/DJPE,/mnt/dmlocal/dados/PE/DJPE/txt
+sem_data,/mnt/dmlocal/dados/RS,6,/mnt/dmlocal/dados/RS/DJRS,/mnt/dmlocal/dados/RS/DJRS/pdf
+2020,/mnt/dmlocal/dados/RS,8,/mnt/dmlocal/dados/RS/DJRS,/mnt/dmlocal/dados/RS/DJRS/txt
+sem_data,/mnt/dmlocal/dados/MA,10,/mnt/dmlocal/dados/MA/DJMA,/mnt/dmlocal/dados/MA/DJMA/pdf
+2020,/mnt/dmlocal/dados/MA,7,/mnt/dmlocal/dados/MA/DJMA,/mnt/dmlocal/dados/MA/DJMA/txt
+2023,/mnt/dmlocal/dados/RJ,7,/mnt/dmlocal/dados/RJ/DJRJ,/mnt/dmlocal/dados/RJ/DJRJ/pdf
+2023,/mnt/dmlocal/dados/RJ,7,/mnt/dmlocal/dados/RJ/DJRJ,/mnt/dmlocal/dados/RJ/DJRJ/txt
+sem_data,/mnt/dmlocal/dados/BA,12,/mnt/dmlocal/dados/BA/DJBA,/mnt/dmlocal/dados/BA/DJBA/pdf
+2022,/mnt/dmlocal/dados/BA,12,/mnt/dmlocal/dados/BA/DJBA,/mnt/dmlocal/dados/BA/DJBA/txt
+2021,/mnt/dmlocal/dados/SE,5,/mnt/dmlocal/dados/SE/DJSE,/mnt/dmlocal/dados/SE/DJSE/pdf
+2021,/mnt/dmlocal/dados/SE,5,/mnt/dmlocal/dados/SE/DJSE,/mnt/dmlocal/dados/SE/DJSE/txt
+sem_data,/mnt/dmlocal/dados/MT,1,/mnt/dmlocal/dados/MT/DJMT,/mnt/dmlocal/dados/MT/DJMT/pdf
+2020,/mnt/dmlocal/dados/MT,7,/mnt/dmlocal/dados/MT/DJMT,/mnt/dmlocal/dados/MT/DJMT/txt
+sem data,/mnt/dmlocal/dados/TO,7,/mnt/dmlocal/dados/TO/DJTO,/mnt/dmlocal/dados/TO/DJTO/pdf
+2022,/mnt/dmlocal/dados/TO,8,/mnt/dmlocal/dados/TO/DJTO,/mnt/dmlocal/dados/TO/DJTO/txt
+2023,/mnt/dmlocal/dados/AC,2,/mnt/dmlocal/dados/AC/DJAC,/mnt/dmlocal/dados/AC/DJAC/pdf
+2023,/mnt/dmlocal/dados/AC,2,/mnt/dmlocal/dados/AC/DJAC,/mnt/dmlocal/dados/AC/DJAC/txt
+sem_data,/mnt/dmlocal/dados/DF,7,/mnt/dmlocal/dados/DF/DJDF,/mnt/dmlocal/dados/DF/DJDF/pdf
+2023,/mnt/dmlocal/dados/CE,7,/mnt/dmlocal/dados/CE/DJCE,/mnt/dmlocal/dados/CE/DJCE/pdf
+2023,/mnt/dmlocal/dados/CE,7,/mnt/dmlocal/dados/CE/DJCE,/mnt/dmlocal/dados/CE/DJCE/txt
+2023,/mnt/dmlocal/dados/AL,7,/mnt/dmlocal/dados/AL/DJAL,/mnt/dmlocal/dados/AL/DJAL/pdf
+2023,/mnt/dmlocal/dados/AL,7,/mnt/dmlocal/dados/AL/DJAL,/mnt/dmlocal/dados/AL/DJAL/txt
+2023,/mnt/dmlocal/dados/PB,7,/mnt/dmlocal/dados/PB/DJPB,/mnt/dmlocal/dados/PB/DJPB/pdf
+2023,/mnt/dmlocal/dados/PB,7,/mnt/dmlocal/dados/PB/DJPB,/mnt/dmlocal/dados/PB/DJPB/txt
+2023,/mnt/dmlocal/dados/MS,7,/mnt/dmlocal/dados/MS/DJMS,/mnt/dmlocal/dados/MS/DJMS/pdf
+2023,/mnt/dmlocal/dados/MS,7,/mnt/dmlocal/dados/MS/DJMS,/mnt/dmlocal/dados/MS/DJMS/txt
+2023,/mnt/dmlocal/dados/PI,7,/mnt/dmlocal/dados/PI/DJPI,/mnt/dmlocal/dados/PI/DJPI/pdf
+2023,/mnt/dmlocal/dados/PI,7,/mnt/dmlocal/dados/PI/DJPI,/mnt/dmlocal/dados/PI/DJPI/txt
+2015,/mnt/dmlocal/dados/SP,6,/mnt/dmlocal/dados/SP/TRTSP,/mnt/dmlocal/dados/SP/TRTSP/pdf
+2015,/mnt/dmlocal/dados/SP,6,/mnt/dmlocal/dados/SP/TRTSP,/mnt/dmlocal/dados/SP/TRTSP/txt
+recuperacao,/mnt/dmlocal/dados/SP,7,/mnt/dmlocal/dados/SP/JUCESP,/mnt/dmlocal/dados/SP/JUCESP/pdf
+2023,/mnt/dmlocal/dados/SP,7,/mnt/dmlocal/dados/SP/JUCESP,/mnt/dmlocal/dados/SP/JUCESP/txt
+count.txt,/mnt/dmlocal/dados/SP,7,/mnt/dmlocal/dados/SP/DJSP,/mnt/dmlocal/dados/SP/DJSP/pdf
+2023,/mnt/dmlocal/dados/SP,7,/mnt/dmlocal/dados/SP/DJSP,/mnt/dmlocal/dados/SP/DJSP/txt
+2013,/mnt/dmlocal/dados/ES,8,/mnt/dmlocal/dados/ES/DJES,/mnt/dmlocal/dados/ES/DJES/pdf
+2023,/mnt/dmlocal/dados/ES,7,/mnt/dmlocal/dados/ES/DJES,/mnt/dmlocal/dados/ES/DJES/txt
+sem_data,/mnt/dmlocal/dados/PA,Nenhum mês encontrado,/mnt/dmlocal/dados/PA/DJPA,/mnt/dmlocal/dados/PA/DJPA/pdf
+2021,/mnt/dmlocal/dados/RO,12,/mnt/dmlocal/dados/RO/DJRO,/mnt/dmlocal/dados/RO/DJRO/pdf
+2021,/mnt/dmlocal/dados/RO,12,/mnt/dmlocal/dados/RO/DJRO,/mnt/dmlocal/dados/RO/DJRO/txt
+2022,/mnt/dmlocal/dados/SC,4,/mnt/dmlocal/dados/SC/DJSC,/mnt/dmlocal/dados/SC/DJSC/pdf
+2022,/mnt/dmlocal/dados/SC,1,/mnt/dmlocal/dados/SC/DJSC,/mnt/dmlocal/dados/SC/DJSC/txt
+2023,/mnt/dmlocal/dados/RN,7,/mnt/dmlocal/dados/RN/DJRN,/mnt/dmlocal/dados/RN/DJRN/pdf
+2022,/mnt/dmlocal/dados/RN,12,/mnt/dmlocal/dados/RN/DJRN,/mnt/dmlocal/dados/RN/DJRN/txt
+2022,/mnt/dmlocal/dados/RR,8,/mnt/dmlocal/dados/RR/DJRR,/mnt/dmlocal/dados/RR/DJRR/pdf
+2022,/mnt/dmlocal/dados/RR,8,/mnt/dmlocal/dados/RR/DJRR,/mnt/dmlocal/dados/RR/DJRR/txt
+2020,/mnt/dmlocal/dados/MG,9,/mnt/dmlocal/dados/MG/DJMG,/mnt/dmlocal/dados/MG/DJMG/pdf
+2020,/mnt/dmlocal/dados/MG,6,/mnt/dmlocal/dados/MG/DJMG,/mnt/dmlocal/dados/MG/DJMG/txt
+2023,/mnt/dmlocal/dados/PR,7,/mnt/dmlocal/dados/PR/DJPR,/mnt/dmlocal/dados/PR/DJPR/pdf
+2023,/mnt/dmlocal/dados/PR,7,/mnt/dmlocal/dados/PR/DJPR,/mnt/dmlocal/dados/PR/DJPR/txt
+sem_data,/mnt/dmlocal/dados/GO,9,/mnt/dmlocal/dados/GO/DJGO,/mnt/dmlocal/dados/GO/DJGO/pdf
+2020,/mnt/dmlocal/dados/GO,7,/mnt/dmlocal/dados/GO/DJGO,/mnt/dmlocal/dados/GO/DJGO/txt
+2021,/mnt/dmlocal/dados/AM,6,/mnt/dmlocal/dados/AM/DJAM,/mnt/dmlocal/dados/AM/DJAM/pdf

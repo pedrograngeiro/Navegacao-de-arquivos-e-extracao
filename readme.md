@@ -52,3 +52,11 @@ Você pode personalizar o script de acordo com suas necessidades. Algumas possí
       - listar_arquivos
       - criar_pastas_anos
       - criar_pastas_meses
+
+## Alterações
+#### Data
+
+| Data       | Alteração                                        | Concluído |
+|------------|--------------------------------------------------|-----------|
+| 24/07/2023 | Foi alterado csv, add uma função para último mês |           |
+|  |                                                  |           |

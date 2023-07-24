@@ -3,7 +3,6 @@ from datetime import date
 
 # Bibliotecas Uteis
 from util.gerar_csv import gerar_csv
-
 from util import manipular_arquivos
 
 def obter_ano_pasta(pasta):
@@ -22,6 +21,11 @@ def obter_pastas_ano(caminho_tipo_arquivo):
     pastas_ano = os.listdir(caminho_tipo_arquivo)
     pastas_ano.sort(reverse=True)
     return pastas_ano
+
+def obter_ultimo_ano(caminho_tipo_arquivo):
+    pasta_ultimo_ano = obter_pastas_ano(caminho_tipo_arquivo)
+    pasta_ultimo_ano = pasta_ultimo_ano[0]
+    return pasta_ultimo_ano
 
 def obter_pasta_recente(pastas_ano, caminho_tipo_arquivo, ano_atual):
     """
@@ -99,8 +103,10 @@ def percorrer_pastas(diretorio_raiz, tipo_arquivos_pastas=None):
                         if os.path.isdir(caminho_tipo_arquivo) and tipo_arquivo in siglas_pastas:
 
                             ano_atual = date.today().year
-                            print(ano_atual)
+                            # print(ano_atual)
                             pastas_ano = obter_pastas_ano(caminho_tipo_arquivo)
+
+                            pasta_ultimo_ano = obter_ultimo_ano(caminho_tipo_arquivo)
 
                             pasta_recente = obter_pasta_recente(pastas_ano, caminho_tipo_arquivo, ano_atual)
 
@@ -123,9 +129,9 @@ def percorrer_pastas(diretorio_raiz, tipo_arquivos_pastas=None):
                                 "Estado": caminho_estado,
                                 "Orgao": caminho_orgao,
                                 "Tipo de arquivo": caminho_tipo_arquivo,
-                                "Pasta do ano mais recente": pasta_recente if pasta_recente else "Nenhuma pasta encontrada para o ano atual",
-                                "Caminho dos meses": caminhos_meses,
-                                "Mês mais recente": mes_mais_recente if mes_mais_recente else "Nenhum mês encontrado"
+                                "Ano": pasta_ultimo_ano,
+                                "Mês": mes_mais_recente if mes_mais_recente else "Nenhum mês encontrado",
+
                             })
 
 
@@ -166,14 +172,14 @@ def run():
     # pasta alvo
     caminho = '/mnt/dmlocal/dados/'
     dados = percorrer_pastas(caminho, tipo_arquivos_pastas)
-    dados_atualizados = [dado for dado in dados if dado["Pasta do ano mais recente"].endswith("/2023")]
+    # dados_atualizados = [dado for dado in dados if dado["Ano"].endswith("/2023")]
 
     nome_arquivo = "dadosPastas.csv"
 
     # Lista com as colunas desejadas
-    colunas_desejadas = ["Estado", "Caminho dos meses", "Tipo de arquivo", "Mês mais recente"]
+    colunas_desejadas = ["Estado", "Ano", "Mês", "Tipo de arquivo" ]
 
-    gerar_csv(dados_atualizados, nome_arquivo, colunas=colunas_desejadas)
+    gerar_csv(dados, nome_arquivo, colunas=colunas_desejadas)
 
 
 if __name__ == "__main__":

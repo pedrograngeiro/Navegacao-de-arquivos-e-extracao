@@ -24,7 +24,12 @@ def obter_pastas_ano(caminho_tipo_arquivo):
 
 def obter_ultimo_ano(caminho_tipo_arquivo):
     pasta_ultimo_ano = obter_pastas_ano(caminho_tipo_arquivo)
-    pasta_ultimo_ano = pasta_ultimo_ano[0]
+    item = [i for i in pasta_ultimo_ano if i.isdigit()]
+    try:
+        pasta_ultimo_ano = item[0]
+    except:
+        pasta_ultimo_ano = "Verificar Ano"
+
     return pasta_ultimo_ano
 
 def obter_pasta_recente(pastas_ano, caminho_tipo_arquivo, ano_atual):
@@ -84,6 +89,7 @@ def percorrer_pastas(diretorio_raiz, tipo_arquivos_pastas=None):
     """
     siglas_estados = ["AC", "AL", "AP", "AM", "BA", "CE", "DF", "ES", "GO", "MA", "MT", "MS", "MG", "PA", "PB", "PR",
                           "PE", "PI", "RJ", "RN", "RS", "RO", "RR", "SC", "SP", "SE", "TO"]
+    # siglas_estados = ["MA"]
 
     dados = []
     nomes_arquivos_gerados = []

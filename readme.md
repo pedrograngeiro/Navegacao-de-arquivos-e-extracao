@@ -56,7 +56,7 @@ Você pode personalizar o script de acordo com suas necessidades. Algumas possí
 ## Alterações
 #### Data
 
-| Data       | Alteração                                        | Concluído |
-|------------|--------------------------------------------------|-----------|
-| 24/07/2023 | Foi alterado csv, add uma função para último mês |           |
-|  |                                                  |           |
+| Data       | Alteração                                                                             | Concluído |
+|------------|---------------------------------------------------------------------------------------|-----------|
+| 24/07/2023 | Foi alterado csv, add uma função para último mês e especificado ordem do arquivo csv. |           |
+|  |                                                                                       |           |

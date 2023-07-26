@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: logs-pasta
+Version: 0.1
+Summary: Navegacao de arquivos e extracao
+Home-page: UNKNOWN
+Author: Pedro Grangeiro & 0rakul0
+Author-email: pedrop.grangeiro@gmail.com & anjos.ccd@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT Licence
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9

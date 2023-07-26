@@ -1,0 +1,10 @@
+setup.py
+logs_pasta.egg-info/PKG-INFO
+logs_pasta.egg-info/SOURCES.txt
+logs_pasta.egg-info/dependency_links.txt
+logs_pasta.egg-info/requires.txt
+logs_pasta.egg-info/top_level.txt
+util/__init__.py
+util/gerar_csv.py
+util/manipular_arquivos.py
+util/verificar_data_modificacoes.py

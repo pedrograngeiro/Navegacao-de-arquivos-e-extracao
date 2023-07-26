@@ -162,6 +162,15 @@ def imprimir_dados(dados):
         for caminho_mes in dado['Caminho dos meses']:
             print("  -", caminho_mes)
 
+def filtrar_dados(dados, ano_filtrar, mes_filtrar):
+    if mes_filtrar == "Nenum mês encontrado":
+        mes_filtrar = -1
+    else:
+        mes_filtrar = int(mes_filtrar)
+
+    dados_filtrados = [dado for dado in dados if dado["Ano"] == str(ano_filtrar) and dado["Mês"] == mes_filtrar]
+    return dados_filtrados
+
 def run():
     """
     Executa o processo principal do programa.
@@ -180,12 +189,18 @@ def run():
     dados = percorrer_pastas(caminho, tipo_arquivos_pastas)
     # dados_atualizados = [dado for dado in dados if dado["Ano"].endswith("/2023")]
 
+    # Filtrar dados para mostrar apenas os estados que estão em 2023 e
+    # mês 7
+    dados_filtrados = filtrar_dados(dados, ano_filtrar=2023, mes_filtrar="07")
+
     nome_arquivo = "dadosPastas.csv"
+    nome_arquivo_filtrada = "dados_filtrados.csv"
 
     # Lista com as colunas desejadas
     colunas_desejadas = ["Estado", "Ano", "Mês", "Tipo de arquivo" ]
 
-    gerar_csv(dados, nome_arquivo, colunas=colunas_desejadas)
+    # gerar_csv(dados, nome_arquivo, colunas=colunas_desejadas)
+    gerar_csv(dados_filtrados, nome_arquivo_filtrada, colunas=colunas_desejadas)
 
 
 if __name__ == "__main__":

@@ -199,7 +199,14 @@ def filtrar_dados_nao_atualizados(dados):
             # Pode ser 'Verificar Ano' ou outro valor inválido no campo "Ano".
 
             dado["Ano"] = -1 # Define um valor inválido para representar um ano não atualizado.
+            dado["Mês"] = -1
             dados_nao_atualizados.append(dado)
+
+
+
+    # Ordenar a lista dos dados não atualizados pelo ano mais antigo e mês mais antigo
+    dados_nao_atualizados.sort(key=lambda dado: (int(dado["Ano"]), int(dado["Mês"])))
+
     return dados_nao_atualizados
 
 def run():

@@ -59,4 +59,4 @@ Você pode personalizar o script de acordo com suas necessidades. Algumas possí
 | Data       | Alteração                                                                             | Concluído |
 |------------|---------------------------------------------------------------------------------------|-----------|
 | 24/07/2023 | Foi alterado csv, add uma função para último mês e especificado ordem do arquivo csv. |           |
-|  |                                                                                       |           |
+| 26/07/2023 |                                                                                       |           |

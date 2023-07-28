@@ -171,6 +171,37 @@ def filtrar_dados(dados, ano_filtrar, mes_filtrar):
     dados_filtrados = [dado for dado in dados if dado["Ano"] == str(ano_filtrar) and dado["Mês"] == mes_filtrar]
     return dados_filtrados
 
+def filtrar_dados_nao_atualizados(dados):
+    """
+        Filtra os dados para mostrar apenas os registros que não estão atualizados.
+        Dados não atualizados são aqueles cujo ano e mês são anteriores à data atual.
+
+        :param dados: Uma lista de dicionários contendo informações sobre estados, órgãos, tipos de arquivo,
+                      pastas do ano mais recente e caminhos para as pastas dos meses.
+        :return: Retorna uma lista com os dados filtrados.
+    """
+    hoje = date.today()
+    ano_atual = hoje.year
+    mes_atual = hoje.month
+
+    dados_nao_atualizados = []
+
+    for dado in dados:
+        try:
+            ano_dado = int(dado["Ano"])
+            mes_dado = int(dado["Mês"])
+            # Verifica se o ano é menor que o ano atual ou, no caso de anos iguais,
+            # se o mês é menor que o mês atual.
+            if ano_dado < ano_atual or (ano_dado == ano_atual and mes_dado < mes_atual):
+                dados_nao_atualizados.append(dado)
+        except ValueError:
+            # Se o ano não puder ser convertido para inteiro, considera o registro como não atualizado.
+            # Pode ser 'Verificar Ano' ou outro valor inválido no campo "Ano".
+
+            dado["Ano"] = -1 # Define um valor inválido para representar um ano não atualizado.
+            dados_nao_atualizados.append(dado)
+    return dados_nao_atualizados
+
 def run():
     """
     Executa o processo principal do programa.
@@ -192,6 +223,7 @@ def run():
     # Filtrar dados para mostrar apenas os estados que estão em 2023 e
     # mês 7
     dados_filtrados = filtrar_dados(dados, ano_filtrar=2023, mes_filtrar="07")
+    dados_nao_atualizados = filtrar_dados_nao_atualizados(dados)
 
     nome_arquivo = "dadosPastas.csv"
     nome_arquivo_filtrada = "dados_filtrados.csv"
@@ -199,9 +231,9 @@ def run():
     # Lista com as colunas desejadas
     colunas_desejadas = ["Estado", "Ano", "Mês", "Tipo de arquivo" ]
 
-    # gerar_csv(dados, nome_arquivo, colunas=colunas_desejadas)
+    gerar_csv(dados, nome_arquivo, colunas=colunas_desejadas)
     gerar_csv(dados_filtrados, nome_arquivo_filtrada, colunas=colunas_desejadas)
-
+    gerar_csv(dados_nao_atualizados, "dados_nao_atualizado.csv", colunas=colunas_desejadas)
 
 if __name__ == "__main__":
     run()
